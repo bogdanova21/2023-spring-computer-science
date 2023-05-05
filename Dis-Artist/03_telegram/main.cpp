@@ -18,6 +18,7 @@
 #include "course/course.hpp"
 #include "tgbot/tgbot.h"
 #include "weather/weather.hpp"
+#include "joke/joke.hpp"
 
 using namespace std;
 using namespace TgBot;

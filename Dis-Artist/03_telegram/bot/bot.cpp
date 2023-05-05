@@ -11,10 +11,11 @@ bot::bot(const std::string& bot_token_str, const std::string& weather_api_str)
     get_weather_city_ = false;
     get_course_valute_ = false;
 
-    bot_commands_ = {"start", "help", "weather", "course"};
+    bot_commands_ = {"start", "help", "weather", "course", "joke"};
     bot_commands_description_ = {"Начать общение", "Посмотреть что умеет бот",
                                  "Посмотреть прогноз погоды",
-                                 "Посмотреть курс валюты"};
+                                 "Посмотреть курс валюты",
+                                 "Случайная шутка"};
 
     std::vector<TgBot::BotCommand::Ptr> commands;
     std::vector<TgBot::BotCommand::Ptr> vectCmd;
@@ -112,6 +113,14 @@ void bot::course_command() {
                                       "Введена неверная валюта");
             get_course_valute_ = false;
         }
+    });
+}
+
+void bot::jokee_command() {
+    bot_.getEvents().onCommand("joke", [&](TgBot::Message::Ptr message) {
+        bot_.getApi().sendMessage(message->chat->id,
+                                 joke_.()+ ".");
+
     });
 }
 

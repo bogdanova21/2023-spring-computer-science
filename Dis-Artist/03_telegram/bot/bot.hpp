@@ -6,6 +6,7 @@
 #include "tgbot/net/TgLongPoll.h"
 #include "tgbot/types/InlineKeyboardMarkup.h"
 #include "weather/weather.hpp"
+#include "joke/joke.hpp"
 
 #include <string>
 
@@ -21,15 +22,19 @@ class bot {
     virtual void weather_command();
     virtual void course_command();
     void check_input();
+    void joke_command()
+{
 
     TgBot::Bot bot_;
     TgBot::TgLongPoll long_poll_;
     bool get_weather_city_;
     bool get_course_valute_;
+    void joke();
     std::vector<std::string> bot_commands_;
     std::vector<std::string> bot_commands_description_;
     weather weather_;
     course course_;
+    joke joke_;
 };
 
 #endif
