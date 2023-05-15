@@ -48,3 +48,26 @@ cmake --build .
 ./calc
 ```
 ## Тесты <a name = "тесты"></a>
+```
+Проверка простейших базовых арифметических операций
+```
+![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/1.jpg)
+![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/2.jpg)
+![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/3.jpg)
+![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/7.jpg)
+
+```
+Проверка математических и физических констант
+
+(el - обозначение заряда электрона)
+```
+![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/8.jpg)
+![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/10.jpg)
+
+```
+Проверка тригонометрических операций 
+```
+![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/4.jpg)
+![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/5.jpg)
+![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/6.jpg)
+
