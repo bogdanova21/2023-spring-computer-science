@@ -87,7 +87,8 @@ void te_free(te_expr* n) {
 
 static double pi(void) { return 3.14159265358979323846; }
 static double e(void) { return 2.71828182845904523536; }
-static double fac(double a) {/* simplest version of fac */
+static double el(void) { return 1.60219; }
+static double fac(double a) {
     if (a < 0.0)
         return NAN;
     if (a > UINT_MAX)
@@ -135,6 +136,7 @@ static const te_variable functions[] = {
     {"exp", exp,      TE_FUNCTION1 | TE_FLAG_PURE, 0},
     {"fac", fac,      TE_FUNCTION1 | TE_FLAG_PURE, 0},
     {"floor", floor,  TE_FUNCTION1 | TE_FLAG_PURE, 0},
+    {"el", el,        TE_FUNCTION0 | TE_FLAG_PURE, 0},
     {"ln", log,       TE_FUNCTION1 | TE_FLAG_PURE, 0},
 #ifdef TE_NAT_LOG
     {"log", log,      TE_FUNCTION1 | TE_FLAG_PURE, 0},
