@@ -71,3 +71,15 @@ cmake --build .
 ![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/5.jpg)
 ![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/6.jpg)
 
+```
+Проверка функции факториала и вычисления биноминального коэффициента
+```
+![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/11.jpg)
+![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/12.jpg)
+![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/13.jpg)
+
+```
+В вычислении биноминального коэффициента n<r, следовательно функция вернет значение NAN (для обозначения ошибки)
+```
+![Screenshot](https://github.com/bogdanova21/2023-spring-computer-science/blob/main/Dis-Artist/02_calc/tests/14.jpg)
+
